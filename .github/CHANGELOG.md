@@ -15,6 +15,9 @@
 
 ### Improvements
 
+* Add configuration files to improve compatibility with Catalyst
+  [(#557)](https://github.com/PennyLaneAI/pennylane-lightning/pull/566)
+
 * Modify `setup.py` to use backend-specific build directory (`f"build_{backend}"`) to accelerate rebuilding backends in alternance.
   [(#540)] (https://github.com/PennyLaneAI/pennylane-lightning/pull/540)
 
@@ -53,7 +56,7 @@
 
 This release contains contributions from (in alphabetical order):
 
-Isaac De Vlugt, Vincent Michaud-Rioux, Lee James O'Riordan, Shuli Shu
+Isaac De Vlugt, Vincent Michaud-Rioux, Lee James O'Riordan, Erick Ochoa Lopez, Shuli Shu
 
 ---
 
