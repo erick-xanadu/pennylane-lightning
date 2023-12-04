@@ -15,7 +15,7 @@
 
 ### Improvements
 
-* Add configuration files to improve compatibility with Catalyst
+* Add configuration files to improve compatibility with Catalyst.
   [(#557)](https://github.com/PennyLaneAI/pennylane-lightning/pull/566)
 
 * Modify `setup.py` to use backend-specific build directory (`f"build_{backend}"`) to accelerate rebuilding backends in alternance.
